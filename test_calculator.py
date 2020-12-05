@@ -11,3 +11,7 @@ def test_subtraction():
 
 def test_multiplication():
     assert 100 == calculator.multiply(10, 10)
+
+
+def test_division():
+    assert 100 / 10 == 10.0
