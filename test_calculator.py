@@ -14,4 +14,4 @@ def test_multiplication():
 
 
 def test_division():
-    assert 100 / 10 == 10.0
+    assert 10.0 == calculator.division(100, 10)
