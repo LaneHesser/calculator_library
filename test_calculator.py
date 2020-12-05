@@ -7,3 +7,7 @@ def test_addition():
 
 def test_subtraction():
     assert 2 == calculator.subtract(4, 2)
+
+
+def test_multiplication():
+    assert 100 == calculator.multiply(10, 10)
